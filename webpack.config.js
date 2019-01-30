@@ -2,8 +2,8 @@ const path = require('path');
 
 module.exports = {
     entry: [
-        path.resolve(__dirname, 'src/js/index.js'),
-        path.resolve(__dirname, 'src/js/IdGenerator.js')
+        path.resolve(__dirname, 'src/index.js'),
+        path.resolve(__dirname, 'src/IdGenerator.js')
     ],
     output: {
         path: path.resolve(__dirname, 'dist'),
